@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 1280px;
+    margin: 0 auto;
+}
+header{
+    background-color: tomato;
+    color: #fff;
+}
+nav > ul {
+    display: flex;
+    align-items: center;
+}
+nav > ul li{
+    list-style: none;
+    margin-left: 5px;
+    padding: 3px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: larger;
+}
+main{
+    height: 200px;
+    background-color: beige;
+}
+footer{
+    background-color: #001200;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
