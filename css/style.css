@@ -9,27 +9,56 @@ body{
 header{
     background-color: tomato;
     color: #fff;
+    padding: 30px 0;
 }
 nav > ul {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 nav > ul li{
     list-style: none;
     margin-left: 5px;
-    padding: 3px;
 }
 nav ul li a{
     text-decoration: none;
     font-size: larger;
+    color:#fff;
+    padding: 5px;
+}
+nav ul li:hover a{
+    color: blue;
+    background-color: antiquewhite;
 }
 main{
     height: 200px;
     background-color: beige;
+    padding: 5px;
 }
+h2{
+    text-align: center;
+}
+
+.flex-wraper{
+    border: 1px solid salmon;
+    padding: 2px;
+    height: 300px;
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.box{
+    border: 1px dashed green;
+    height: 60px;
+    width: 60px;
+}
+
 footer{
     background-color: #001200;
     color: #fff;
     text-align: center;
     padding: 30px 0;
+    margin-top: 200px;
 }
